@@ -1,0 +1,51 @@
+.mpress-banner-wrapper {
+	position: relative;
+	height: 0;
+	line-height: 0;
+}
+.mpress-banner-wrapper.mpress-banner-persistent {
+    height: auto;
+    margin: 10px 0;
+}
+.mpress-banner-persistent .mpress-banner {
+    position: relative;
+    display: block;
+}
+.mpress-banner-dismiss {
+    display: none;
+}
+.mpress-banner-dismissible .mpress-banner-dismiss {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    border: 1px solid white;
+    padding: 1px 2px;
+    line-height: 1em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+.mpress-banner-wrapper a,
+.mpress-banner-wrapper img {
+	margin: 0;
+	padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+.mpress-banner {
+	display: none;
+	position: absolute;
+	z-index: 999;
+	margin: 0;
+	padding: 0;
+}
+.mpress-banner-up {
+	bottom: 0;
+	left: 0;
+}
+.mpress-banner-down {
+	top: 0;
+	left: 0;
+}
